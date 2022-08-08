@@ -1,1 +1,2 @@
-# recipe-management-1.0
+
+Recipe management API provides seamless way to perform Create, Read, Update and Delete operations on the user’s favorite recipes.
