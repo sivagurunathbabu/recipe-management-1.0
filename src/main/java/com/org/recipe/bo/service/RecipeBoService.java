@@ -13,7 +13,7 @@ public interface RecipeBoService {
 
 	public Recipe update(String name,Recipe recipe);
 
-	public List<Recipe> filterRecipes(Category category,List<String> ingredients, List<String> ingrediantsExclude,
+	public List<Recipe> filterRecipes(Category category,List<String> includedIngredients, List<String> excludedIngredients,
 			Integer noOfServings,String instructions);
 
 	public String delete(String name);
