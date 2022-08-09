@@ -12,7 +12,7 @@
 	<groupId>com.org</groupId>
 	<artifactId>recipe-management</artifactId>
 	<version>1.0</version>
-	<name>demo-1</name>
+	<name>Receipe Management</name>
 	<description>Demo project for Recipe Management</description>
 	<properties>
 		<java.version>11</java.version>
@@ -86,6 +86,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+                	<mainClass>com.org.recipe.RecipeManagementApplication</mainClass>
+            	</configuration>  			
 			</plugin>
 		</plugins>
 	</build>
